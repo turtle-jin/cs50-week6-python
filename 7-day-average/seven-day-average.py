@@ -76,7 +76,7 @@ def comparative_averages(new_cases, states):
             except ZeroDivisionError:
                 print(f"{state} had a 7-day average of {avg_last} and no percentage increase or decrease available.")
         else:
-            print(f"{state} had a 7-day average of{avg_last}, and it stayed the same with last week's data")
+            print(f"{state} had a 7-day average of{avg_last}, and it stayed the same as last week's data")
 
 
 main()
